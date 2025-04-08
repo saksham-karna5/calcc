@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc/styles/styles.css" />
+  </head>
+  <body>
+      <div id="calculator">
+        <input id="display" readonly>
+        <div id="buttons">
+          <button onclick="Doonclick('+')" class='op'>+</button>
+          <button onclick="Doonclick('7')">7</button>
+          <button onclick="Doonclick('8')">8</button>
+          <button onclick="Doonclick('9')">9</button>
+          <button onclick="Doonclick('*')" class='op'>x</button>
+          <button onclick="Doonclick('4')">4</button>
+          <button onclick="Doonclick('5')">5</button>
+          <button onclick="Doonclick('6')">6</button>
+          <button onclick="Doonclick('-')" class='op'>-</button>
+          <button onclick="Doonclick('1')">1</button>
+          <button onclick="Doonclick('2')">2</button>
+          <button onclick="Doonclick('3')">3</button>
+          <button onclick="Doonclick('/')" class='op'>/</button>
+          <button onclick="Doonclick('.')">.</button>
+          <button onclick="Doonclick('0')">0</button>
+          
+          <button onclick="calculate()">=</button>
+          <button onclick="cleardisp()" class='op'>C</button>
+        </div>
+      </div>
+      <script src="calc/sctipt/script.js"></script>
+  </body>
+</html>
